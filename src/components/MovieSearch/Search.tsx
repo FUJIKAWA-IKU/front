@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 type Props = {
-  searchFunc: Function;
+  searchFunc: any;
 };
 
 export const Search: React.FC<Props> = ({ searchFunc }) => {
