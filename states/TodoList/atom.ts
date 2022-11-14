@@ -1,8 +1,7 @@
 import { atom } from "recoil";
 
-
 export const todoListState = atom({
-  key: 'todoListState',
+  key: "todoListState",
   default: [
     {
       id: 0,
@@ -10,4 +9,9 @@ export const todoListState = atom({
       isComplete: false,
     },
   ],
+});
+
+export const todoListFilterState = atom({
+  key: "todoListFilterStore",
+  default: "全て",
 });
