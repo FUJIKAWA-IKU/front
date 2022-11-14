@@ -10,7 +10,10 @@ export const Toppage = () => {
         <a css={linkStyle}>映画検索</a>
       </Link>
       <Link href="/recoil-tutorial">
-        <a>Recoilチュートリアル</a>
+        <a css={linkStyle}>Recoilチュートリアル</a>
+      </Link>
+      <Link href="/useContext-tutorial">
+        <a css={linkStyle}>useContextチュートリアル</a>
       </Link>
     </>
   );
