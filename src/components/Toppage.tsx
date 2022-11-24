@@ -16,7 +16,7 @@ export const Toppage = () => {
         <a css={linkStyle}>useContextチュートリアル</a>
       </Link>
       <Link href="/forwardRef-sample">
-        <a css={linkStyle}>forwardRef使ってみたよ</a>
+        <a css={linkStyle}>forwardRef使ってみた〜</a>
       </Link>
     </>
   );
